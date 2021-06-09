@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umamicart developer position</title>
+  <style>
+    @font-face {
+      font-family: 'Neue Machina';
+      src: url('/fonts/NeueMachina-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Neue Machina';
+      src: url('/fonts/NeueMachina-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Neue Machina';
+      src: url('/fonts/NeueMachina-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    @font-face {
+      font-family: 'Neue Machina';
+      src: url('/fonts/NeueMachina-Ultrabold.woff') format('woff');
+      font-weight: 800;
+      font-style: normal;
+      font-display: fallback;
+    }
+
+    body {
+      font-family: "Neue Machina", Calibri, sans-serif;
+      min-width: 20rem;
+      max-width: 45rem;
+      margin: 1rem;
+    }
+
+    h2 {
+      font-weight: 800;
+    }
+
+    p {
+      line-height: 1.5rem;
+    }
+
+    li {
+      line-height: 1.5rem;
+    }
+
+    img {
+      width: 20rem;
+      float: right;
+      border: 2px solid black;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: 45rem) {
+      body {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header style="text-align: right;">
+    <img style="float: none; border: none; width: 10rem; margin: 0;" src="/images/logo.png" alt="Logo" />
+  </header>
+  <section>
+    <h2>Who are we?</h2>
+    <p>
+      We're <a href="https://umamicart.com/">Umamicart</a>, an early-stage startup delivering your favorite Asian
+      groceries 🍣🥟🍜🍥, fresh and to your home, for those with an emotional
+      connection to Asian cuisines.
+    </p>
+    <img src="/images/a.png" alt="Food box" />
+    <p>
+      We're a team of passionate and multidisciplinary people, working to produce a
+      delightful user experience, and
+      provide
+      best-in-class food experience 🤤
+    </p>
+    <p>
+      From a technical standpoint, we're building a full stack e-commerce platform, from desktop, mobile and internal
+      tools
+      (for
+      data integration, order tracking and others), everything leveraged by a wide range of tools and technologies.
+    </p>
+    <p>
+      We are a small, remote-friendly company based on NYC 🗽, with the technical team spread across Spain. We've just
+      closed our seed-funding round with <a href="https://fjlabs.com/">FJ Labs</a>, which is one of the main tech
+      investment funds in marketplaces across
+      the globe.
+    </p>
+  </section>
+
+
+  <section>
+    <h2>What are we looking for?</h2>
+    <p>
+      We need <strong>our second frontend developer</strong>, that will work on our current storefront portal
+      (based on Shopify with Liquid templates) and also in our mobile apps (using ReactNative). You'll be an early
+      member of the tech team, growing from scratch and positioning yourself as
+      a reference member for future developers.
+    </p>
+    <img src="/images/b.png" alt="DIY sushi kit" />
+    <p>
+      We are looking for someone experienced enough to not only do a great engineering job but also to understand the
+      priorities and tradeoffs of an early startup. In early stages the best solution is usually the quickest one,
+      without
+      creating too much tech debt.
+    </p>
+    <p>
+      You'll need to create the frontend architecture from scratch, defining processes like bundling, transpiling,
+      deploying, etc. You’ll start small, and the architecture and processes will emerge step by step.
+    </p>
+    <p>
+      Since the headquarters are in NYC, you'll need to be able to communicate confidently in English with the team.
+      <a href="https://www.linkedin.com/in/andrea-xu-she-her-35ba9435/">Andrea, our CEO</a> and <a
+        href="https://www.linkedin.com/in/wsumnernichols/">Will, our COO</a>, are the co-founders and they're
+      the ones that will communicate the product vision to the tech team.
+      You'll report to
+      our CTO, based in Spain, so speaking Spanish fluently will
+      definitely help. He will work along with you on every
+      feature,
+      helping to define and refine the architecture, setting tasks and dependencies, understanding hidden traps, and
+      everything
+      that you need along the way. He will also will help you in your career path, making sure that you grow at least as
+      much as the
+      product
+      and the company do.
+    </p>
+    <img src="/images/c.png" alt="Some snacks" />
+    <p>
+      Our current stack is very lean, because right now we're focused on creating all the features of the products. Just
+      as
+      a reference, we use so far:
+    </p>
+    <ul>
+      <li>
+        <strong>Shopify</strong> as the master piece to manage our e-commerce flows: users, products, inventory etc.
+        Inside
+        the Shopify
+        ecosystem, we use several apps,to extend its functionality (SKU Vault, Accentuate Custom Fields, Klaviyo
+        integration,
+        etc.)
+      </li>
+      <li><strong>React</strong> et al. for frontend development.</li>
+      <li><strong>ReactNative</strong> for mobile apps, using Expo for first MVP, we'll see later.</li>
+      <li><strong>GraphQL</strong> and <strong>REST</strong> APIs consumption. Understand both approaches, experience
+        with
+        Apollo GraphQL client.</li>
+      <li>
+        <strong>GCP</strong> for cloud infrastructure: cloud scheduler for recurrent tasks, cloud functions for webhooks
+        and serverless
+        code,
+        etc.
+      </li>
+      <li><strong>Python</strong> for some automation and data-intensive internal products.</li>
+      <li>A bunch of integrations with third parties, for digital marketing, social media, carrier providers, etc.</li>
+      <li>Other lightweight tools like Airtable, Notion, etc. that may be integrated in different devops-like
+        automations.
+      </li>
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>Are you a good fit?</h2>
+    <p>
+      It is hard to answer a question like this here, but here goes a list of challenges you should find yourself
+      excited
+      about:
+    </p>
+    <ul>
+      <li>
+        You'll be definitely building an exciting product from scratch, so you need to be excited of working on a
+        greenfield project, with loads of
+        decisions yet to be make. In an early stage like this, you'll need to balance several factors, and watching out
+        to over-engineered
+        solutions.
+        You
+        need to understand the reasons behind every feature request, analyze alternatives, weigh the tradeoffs, and
+        choose
+        the
+        solution with the best cost/benefit ratio. Probably weeks or months later, you'll revisit this feature, and
+        you'll evolve it
+        iteratively, pay back some tech debt and refine the solution with more data and experience in your pocket.
+      </li>
+      <li>
+        You like technology, frameworks and programming languages, but what you like most is to solve real business
+        needs
+        with
+        technology. You're the chef which uses the best tools and ingredients available to produce delightful dishes and
+        experiences. You aren't a knife-sharpener, or an oven engineer that creates cutting-edge technology for other
+        chefs.
+      </li>
+      <li>
+        You're open to a wide range of problems, solutions and tools. The most obvious solution can be the worst one.
+        You
+        always look for the simplest, easiest, fastest way to solve a problem, without creating new ones.
+      </li>
+      <li>You consider yourself a data-driven decision maker. You gather data, analyze it and decide the next move based
+        on the
+        insights.</li>
+    </ul>
+    <p>Great challenges make great fun, if you agree, we’d love to speak with you!</p>
+  </section>
+
+  <section>
+    <h2>What can you expect from us?</h2>
+    <ul>
+      <li>A welcoming bunch of team-mates, excited to work with you.</li>
+      <li>Positive, inclusive, respectful, international and open minded working environment.</li>
+      <li>A key and early position in the tech team of the company.</li>
+      <li>A focused, eat-our-own-food approach to product development.</li>
+      <li>Remote-first environment, with occasional travels to NYC.</li>
+      <li>Budget for laptop and screen of your choice.</li>
+      <li>Personal budget for conferences, books, events and training.</li>
+      <li>Competitive salary and access to our employee stock options plan.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>I'm all in! What should I do?</h2>
+    <p>
+      Send your resume or Linkedin, Git(hub|lab) profile, or anything you think can help us know you better to
+      <a href="mailto:hello@umamicart.com">hello@umamicart.com</a> and a brief explanation on why you want to join us!
+    </p>
+    <p>
+      If you like what you read, but are still not sure if this is the right position for you, please reach out too.
+      Should
+      you have questions or should you want to find out more about other openings we have, we will be more than happy to
+      have a chat with you and talk it over.
+    </p>
+    <p>Come on! Don't miss the train! 🚅🍣</p>
+  </section>
+</body>
+
+</html>
